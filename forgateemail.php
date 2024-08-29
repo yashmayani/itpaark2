@@ -1,0 +1,8 @@
+<?php
+
+include("confing.php");
+
+
+
+
+?>

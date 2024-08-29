@@ -1,0 +1,231 @@
+.maindiv{
+  display: flex;
+
+}
+.container {
+  width: 100%; 
+  max-width: 1140px; 
+  margin-right: auto;
+  margin-left: auto;
+}
+.card {
+  width: 900px;
+    height: 150px;
+    color: rgb(244, 236, 236);
+    display: flex;
+    flex-direction: row;
+    margin-top: 70px;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+  
+  }
+  /* .nav-tabs{
+  --bs-nav-tabs-border-width:0 !important;
+  } */
+  .card .item {
+    border-radius: 20px;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: space-between;
+    /* border: 1px solid rgb(179, 165, 165); */
+    box-shadow: 0 0 10px rgba(179, 165, 165, 0.5);
+
+  }
+  
+  .item:hover {
+    transform: scale(1.07);
+    transition: all 350ms ease-in-out;
+  }
+  
+  /* .item svg {
+    width: 40px;
+    height: 40px;
+    margin-bottom: 7px;
+  } */
+  
+  .item--1 {
+    background: white;
+ 
+  }
+  
+  .item--2 {
+    background:white;
+  }
+
+  .item--3 {
+    background: white;
+  }
+  
+  .item--4 {
+    background: white;
+    box-sizing: border-box;
+  }
+
+
+  .total{
+     margin-top: 0%;
+     padding-left: 9px;
+  }
+  .complains {
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+}
+
+
+
+  
+  .quantity {
+    font-size: 70px;
+    font-weight: 600;
+    color: rgb(59, 59, 228);
+  }
+  
+  .text {
+    margin-top: 1px;
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 600;
+  }
+  
+  .text--1 {
+    color: black;
+  }
+  
+  .text--2 {
+    color: black;
+  }
+  
+  .text--3 {
+    color: black;
+  }
+  
+  .text--4 {
+    color: black;
+  }
+  
+
+
+  /* Style for the tab navigation buttons */
+.nav-tabs .nav-link {
+  border-radius: .25rem; /* Rounded corners */
+  margin-bottom: -1px; /* Overlap border with tab pane */
+  color: rgb(92, 74, 74);
+  border:none !important;
+}
+
+.nav-tabs .nav-link.active {
+  text-decoration-line: underline; /* Border for inactive tabs */
+  text-underline-offset: 12px !important; /* Adjust this value to control the space between the text and the underline */
+  color: blue;
+  background-color: #fff; /* Background color for active tab */
+  border-color: #dee2e6 #dee2e6 #fff; /* Border color for active tab */
+  box-shadow: inset 0 -1px 0 rgba(79, 80, 103, 0.125); /* Shadow effect for active tab */
+}
+
+/* Style for tab content container */
+.tab-content {
+  padding: 1px; /* Add padding around tab content */
+}
+
+/* Style for tables */
+.table {
+  box-shadow: 0px 0px 20px rgba(214, 213, 213, 0.589) !important; /* Shadow around table */
+  border-radius: 1rem; /* Rounded corners */
+  overflow: hidden; /* Ensure shadow does not overflow */
+}
+
+.table thead th {
+  background-color: #f8f9fa; /* Light background for table headers */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f9f9f9; /* Alternate row colors */
+}
+
+.table th, .table td {
+  padding: 1rem; 
+}
+
+/* Additional styling for images in tables */
+.table img {
+  border-radius: .25rem; /* Rounded corners for images */
+  margin-right: .5rem; /* Spacing between images */
+}
+
+/* Style for the tab content */
+.tab-pane {
+  margin-top: 1rem; /* Margin for tab panes */
+  /* border: 1px solid #dee2e6; Border around tab content */
+  background-color: #fff; /* Background color for tab content */
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Shadow around tab content */
+}
+.more-img{
+  position: relative;
+
+  height: 50px;
+  width: 50px;
+}
+.more-img img{
+
+  position: relative;
+  height: 50px !important;
+  width: 50px !important;
+  left:0;
+  top:0;
+  border-radius: 5px;
+ 
+}
+.more-img-count{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: bold;
+  font-size: 24px;
+  color: white;
+  background-color: rgba(31, 0, 0, 0.288);
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+.table thead th { 
+  background-color: #fff;
+  color: black;
+  font-weight: 500;
+ }
+ .table-striped>tbody>tr:nth-of-type(odd)>* {
+  --bs-table-color-type: var(--bs-table-striped-color);
+  --bs-table-bg-type: rgb(126 113 113 / 5%);
+}
+.add-modal2{
+  height: auto;
+  width:370px;
+  border-radius: 10px !important;
+
+}
+/* .meeting{
+  color:white;
+  background-color:#524FFF;
+  margin-bottom:10px;
+  margin-left:650px;
+}
+.yaaaa{
+  display: flex;
+  justify-content: space-between;
+}
+.complain{
+  color:white;
+  background-color:#524FFF;
+  margin-bottom:10px;
+  margin-left:650px;
+} */
